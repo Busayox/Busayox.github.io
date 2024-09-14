@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog</title>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Cake Blog</h1> <!-- NEW -->
+        <nav> <!-- NEW -->
+            <ul id="nav-ul">
+                <li>
+                <a href="/home" class="navbutton">Home</a>
+                </li>
+                <li>
+                <a href="/about" class="navbutton">About</a>
+                </li>
+                <li>
+                <a href="/contact" class="navbutton">Contact</a>
+                </li>
+                </ul>  
+        </nav> <!-- NEW -->
+        </header>
+
+        <main>
+        <!-- Our main content will go here -->
+            <article>
+                <!-- Our blog post will go here -->
+                <header>
+                    <!-- Article's header goes here -->
+                    <h2>Ten ways to decorate a cake</h2>
+                    <h3>Read time: 5 minutes</h3>
+                </header>
+                <main>
+                    <p>Some text about cakes</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nihil assumenda culpa itaque tempore, alias nemo nulla maiores, nesciunt labore earum. Magnam odio et alias expedita? Perferendis hic eveniet libero excepturi. Doloribus, itaque numquam ducimus quibusdam ut corrupti pariatur quasi animi ab soluta repellat iste hic deleniti eius voluptate deserunt quas ad labore enim molestiae in iure autem aut eaque? Facilis illum iusto sequi error dolorum eius ad maiores modi nostrum rerum quos animi vitae ex ut libero, veritatis, accusamus id dicta fuga neque explicabo aut. Quaerat suscipit dolores voluptas ab, perspiciatis numquam! Ab dolorem asperiores modi dignissimos id aperiam.</p>
+                </main>
+                <footer>
+                    <!-- Our footer content will go here -->
+                    <h2>Author: Abigail Oladuji</h2>
+                    <img src="https://placebear.com/100/100" alt="A picture of a bear">
+                    <h3>Last posted: 01-08-2024</h3>
+                    <a href="https://www.linkedin.com/in/abigail-oladuji-853426236/" target="_blank">
+                        Author's profile</a>
+                </footer>
+            </article>
+            <aside>
+            <!-- Our side menu will go here -->
+            <section>
+                <h2>Filter by Month</h2>
+                <nav>
+                <ul>
+                <li><a href="/blog/month/january">January</a></li>
+                <li><a href="/blog/month/february">February</a></li>
+                <li><a href="/blog/month/march">March</a></li>
+                </ul>
+                </nav>
+                </section>
+                <section>
+                <h2>Filter by Category</h2>
+                <nav>
+                <ul>
+                <li><a href="/blog/puppies">Puppies!</a></li>
+                <li><a href="/blog/dogs">Dogs</a></li>
+                <li><a href="/blog/morepuppues">More Puppies!</a></li>
+                <li><a href="/blog/cats">Cats</a></li>
+                </ul>
+                </nav>
+                </section>
+            </aside>
+            <!-- Main content of website goes here -->  
+
+            <hr>
+            <h2>Sign up to our newsletter!</h2>
+            <form action="" method="POST">
+                <label for="first_name">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" required><br><br>
+                
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" id="last_name" name="last_name" required><br><br>
+ 
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+ 
+               <label for="password">Password:</label><br>
+               <input type="password" id="password" name="password" required><br><br>
+ 
+               <label for="favourite_animal">Favourite animal:</label><br>
+               <input type="radio" id="dog" name="favourite_animal" value="dog">
+               <label for="dog">Dog</label><br>
+               <input type="radio" id="cat" name="favourite_animal" value="cat">
+               <label for="cat">Cat</label><br>
+               <input type="radio" id="hedgehog" name="favourite_animal" value="hedgehog">
+               <label for="hedgehog"> Hedgehog </label><br><br>
+
+               <label for="country">Country:</label><br>
+               <select id="country" name="country">
+                    <option value="england">England</option>
+                    <option value="scotland">Scotland</option>
+                    <option value="Wales">Wales</option>
+                    <option value="northern_ireland">Northern Ireland</option>
+                </select><br><br>
+
+                <label for="bio">Profile info:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+            <hr>
+                       
+
+        </main>
+        <footer>
+            <div id="footer-container">
+                <section>
+                    <h2>Our Site</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Important Files</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                            <li><a href="/">Cookie Policy</a></li>
+                        </ul>
+                </nav>
+                </section>
+                </div> 
+        </footer>
+</body>
+</html>
